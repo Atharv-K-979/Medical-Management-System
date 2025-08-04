@@ -1,0 +1,2 @@
+atharv atharv ADMIN
+kulkarni kulkarni USER

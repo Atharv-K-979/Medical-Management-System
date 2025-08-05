@@ -17,4 +17,4 @@ private:
     std::string escapeForCommand(const std::string& input);
 };
 
-#endif // EMAILNOTIFIER_H
+#endif 

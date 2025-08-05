@@ -35,8 +35,6 @@ void EmailNotifier::sendExpiryAlert(const vector<Medicine>& medicines, const vec
 
 void EmailNotifier::sendEmail(const string& message, const string& subject, const vector<string>& emails) {
     ostringstream cmd;
-
-    // Windows uses "python", not "python3"
     cmd << "python send_email.py \"" << escapeForCommand(message) << "\" \"" << escapeForCommand(subject) << "\"";
     for (const auto& email : emails) {
         cmd << " " << email;
@@ -50,8 +48,6 @@ void EmailNotifier::sendEmail(const string& message, const string& subject, cons
         cerr << "Failed to send email alerts." << endl;
     }
 }
-
-// Escapes quotes and newlines so the message is passed cleanly to Python
 string EmailNotifier::escapeForCommand(const string& input) {
     string escaped;
     for (char c : input) {

@@ -13,7 +13,7 @@ def main():
     recipients = sys.argv[3:]
 
     sender_email = "tonystark03042003@gmail.com"
-    app_password = "vxfr unyg wtrs qmut"  # Gmail App Password (not regular password)
+    app_password = "vxfr unyg wtrs qmut"  # Gmail App Password (not regular password)  learned a lot from it
 
     msg = EmailMessage()
     msg.set_content(message)
@@ -27,11 +27,11 @@ def main():
         with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=context) as server:
             server.login(sender_email, app_password)
             server.send_message(msg)
-        print("✅ Email sent successfully.")
+        print("Email sent successfully.")
     except smtplib.SMTPAuthenticationError:
-        print("❌ Authentication failed. Check app password.")
+        print("Authentication failed. Check app password.")
     except Exception as e:
-        print(f"❌ Failed to send email: {e}")
+        print(f"Failed to send email: {e}")
 
 if __name__ == "__main__":
     main()

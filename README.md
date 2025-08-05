@@ -26,23 +26,23 @@ Medical Management System is a simple **Command-Line Interface (CLI) application
 ## 📌 How to Run the Project
 
 1. Clone the repository
-   git clone https://github.com/Atharv-K-979/Medical-Management-System.git
+   -**git clone https://github.com/Atharv-K-979/Medical-Management-System.git**
 
 2. Move to the project directory
-   cd Medical-Management-System
+   **cd Medical-Management-System**
 
 3. Compile the program using Makefile
-   make
+   -**make**
 
    OR manually:
-   g++ main.cpp Inventory.cpp Medicine.cpp EmailNotifier.cpp -o MedicalManagementSystem
+   -**g++ main.cpp Inventory.cpp Medicine.cpp EmailNotifier.cpp -o MedicalManagementSystem**
 
 4. (Optional) For email notifications, ensure Python is installed
-   python --version
-   pip install smtplib   # if required
+   -**python --version**
+   -**pip install smtplib**
 
 5. Run the program
-   ./MedicalManagementSystem
+   -**./MedicalManagementSystem**
 
 
 ## 📖 Usage Instructions

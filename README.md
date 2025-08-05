@@ -18,12 +18,10 @@ Medical Management System is a simple **Command-Line Interface (CLI) application
 <!-- ![CLI Screenshot](images/cli.png) -->
 ## IMAGES 
 
-![CLI SS](OP_IMAGES/addmed.jpeg)  
-![CLI SS](OP_IMAGES/showmed.jpeg)  
-![CLI SS](OP_IMAGES/email.jpeg)  
-![CLI SS](OP_IMAGES/mobileemail.jpeg)  
-![CLI SS](OP_IMAGES/user1.jpeg)  
-![CLI SS](OP_IMAGES/user2.jpeg)
+## Images
+
+![Add Medicine Screenshot](OP_IMAGES/addmed.jpeg)
+
 
 
 

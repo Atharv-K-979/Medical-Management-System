@@ -16,6 +16,8 @@ Medical Management System is a simple **Command-Line Interface (CLI) application
 - **Simple CLI Interface:** User-friendly console menus and prompts.
 
 <!-- ![CLI Screenshot](images/cli.png) -->
+## IMAGES 
+![CLI SS](OP IMAGES/addmed.jpeg)
 
 ## 🛠 Technologies Used
 
